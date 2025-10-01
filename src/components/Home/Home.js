@@ -228,19 +228,19 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='home1-content'>
-                    <img src={interior} />
+                    <img src={interior} alt='interior'/>
                 </div>
             </div>
             <div className='home2'>
                 <h1>Why is Dynamic Infra the Best for Interiors and Construction?</h1>
                 <div className='img-section'>
-                    <img className='trust-logos' src={img1}/>
-                    <img className='trust-logos' src={img2}/>
-                    <img className='trust-logos' src={img3}/>
-                    <hr className="custom-hr" />
-                    <img className='trust-logos' src={img1}/>
-                    <img className='trust-logos' src={img2}/>
-                    <img className='trust-logos' src={img3}/>
+                    <img className='trust-logos' src={img1} alt='img1'/>
+                    <img className='trust-logos' src={img2} alt='img1'/>
+                    <img className='trust-logos' src={img3} alt='img1'/>
+                    <hr className="custom-hr" /> 
+                    <img className='trust-logos' src={img1} alt='img1'/>
+                    <img className='trust-logos' src={img2} alt='img1'/>
+                    <img className='trust-logos' src={img3} alt='img1'/>
                 </div>
             </div>
             <div className='home3'>
@@ -252,11 +252,11 @@ const Home = () => {
                 </div>
                 <div className='services-imgs'>
                     <div>
-                        <img src = {construction}/>
+                        <img src = {construction} alt='construction'/>
                         <p>Construction</p>
                     </div>
                     <div>
-                        <img src = {interior}/>
+                        <img src = {interior} alt='interior1'/>
                         <p>Interior</p>
                     </div>
                 </div>

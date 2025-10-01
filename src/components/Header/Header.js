@@ -81,10 +81,10 @@ const Header = () => {
 
   return (
     <div className='hero-section'>
-      <img src={hero} className='hero-image animate' ref={headerimgRef}/>
+      <img src={hero} className='hero-image animate' ref={headerimgRef} alt='hero-img'/>
       <div className='header-section animate'>
         <nav className='nav-bar'>
-          <img src={logo}/>
+          <img src={logo} alt = 'logo'/>
           <li>Home</li>
           <li>Services</li>
           <li>Gallery</li>
