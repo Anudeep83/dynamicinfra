@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+.hero-section{
+    height: 100vh;
+    background-size: cover;
+}
+
+.hero-image{
+    position: absolute;      
+    top: 0;
+    left: 0;
+    width: 60%;             
+    height: 90%;            
+    z-index: -1;    
+    transition: transform 0.1s linear ;
+}
+
+.header-section{
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 24px;
+}
+
+.header-name h1{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5rem;
+    color: #92101b;
+    margin-right: 180px;
+    text-shadow: 2px 5px 14px rgba(0, 0, 0, 0.3);
+}
+
+.header-name span{
+    color: #000;
+}
+
+.header-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bar img{
+    height: 80px;
+    width: 110px;
+    margin-left: 20px;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+li {
+  list-style: none;
+  position: relative;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* adjust distance from text */
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width 0.3s ease;
+}
+
+li:hover::after {
+  width: 100%;
+}
+
+
+
+.dreams {
+    position: absolute;
+    bottom: 24px;  
+    left: 20px;    
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #92101b;
+    text-shadow: 2px 5px 14px rgba(0, 0, 0, 0.3);
+    transition: transform 0.1s linear;
+}
+
+/* Header.css */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Hidden by default */
+.animate {
+  opacity: 0;
+}
+
+/* Apply animation when visible */
+.animate.show {
+  animation: fadeInUp 1s forwards;
+}
+
+.hero-image.animate.show {
+  animation: fadeIn 1s forwards;
+}
+
+.header-name {
+  display: inline-block; 
+  transition: transform 0.1s linear;
+}
+
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: 80vh;
+    }
+
+    .header-section {
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .header-name h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .nav-bar img {
+        height: 50px;
+        width: 70px;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+    .dreams {
+        font-size: 1.2rem;
+        bottom: 10px;
+        left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-name h1 {
+        margin-top: 150px;
+        font-size: 1.5rem;
+    }
+
+    .hero-image{
+        height: auto;
+        width: 200px;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .nav-bar img {
+        height: 40px;
+        width: 60px;
+    }
+
+    li {
+        font-size: 0.9rem;
+    }
+
+    .dreams {
+        font-size: 1rem;
+        top: 200px;
+        left: 8px;
+    }
+
+    .hero-section {
+        height: 30vh;
+    }
+}

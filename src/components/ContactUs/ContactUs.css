@@ -1,0 +1,55 @@
+body{
+  overflow-x: hidden;
+}
+.contact-container {
+    background-color: #000;
+    height: auto;
+    background-size: cover;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact-title {
+  font-family: "Noto Serif", serif;
+  font-weight: 500;
+  font-size: 3rem;
+  margin: 0;
+  color: #ffffff;
+  text-align: left;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  text-align: left;
+}
+
+.contact-item h2 {
+  font-family: "Noto Serif", serif;
+  font-weight: 500;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.contact-item p {
+    display: grid;
+    grid-template-columns:  1fr;
+
+  font-family: "Noto Serif", serif;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Responsive: 3 columns on medium+ screens */
+@media (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
