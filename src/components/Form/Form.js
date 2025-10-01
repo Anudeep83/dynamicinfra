@@ -43,8 +43,8 @@ const Form = () => {
                         </div>
                         <div className='btn-content'>
                             <button>Start your construction</button>
-                            <p><a href='#'>*</a>By submitting this form, 
-                               I confirm that I have read and agreed to accept Brick&Bolt's <a href='#'>privacy policy</a></p>
+                            <p><span>*</span>By submitting this form, 
+                               I confirm that I have read and agreed to accept Brick&Bolt's <span href='#'>privacy policy</span></p>
                         </div>
                     </form>
             </div>
