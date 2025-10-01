@@ -1,5 +1,6 @@
 body{
   overflow-x: hidden;
+  min-width: 100%;
 }
 .contact-container {
     background-color: #000;

@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    min-width: 100%;
 }
 .home1 {
     display: flex;
