@@ -5,8 +5,7 @@ import './Header.css';
 
 const Header = () => {
 
-  const [isNavOpen, setIsNavOpen] = useState(false);
-
+ 
    
 
   const headerRef = useRef(null);
