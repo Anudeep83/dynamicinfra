@@ -7,9 +7,7 @@ const Header = () => {
 
   const [isNavOpen, setIsNavOpen] = useState(false);
 
-    const toggleNav = () => {
-        setIsNavOpen(!isNavOpen);
-    };
+   
 
   const headerRef = useRef(null);
   useEffect(() => {
