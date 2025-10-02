@@ -1,8 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react';
+import  { useEffect, useRef, useState } from 'react';
 import img1 from '../../Assets/img1.webp'
 import img2 from '../../Assets/img2.webp'
 import img3 from '../../Assets/img3.webp'
-import aboutusimg from '../../Assets/aboutusimg.webp'
+//import aboutusimg from '../../Assets/aboutusimg.webp'
 import interior from '../../Assets/interior.webp'
 import construction from '../../Assets/construction.webp'
 import d1 from '../../Assets/images/d1.png'

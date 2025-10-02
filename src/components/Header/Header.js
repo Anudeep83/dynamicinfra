@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import  { useEffect, useRef } from 'react';
 import logo from '../../Assets/logo.webp';
 import hero from '../../Assets/heroimg.webp';
 import './Header.css';
