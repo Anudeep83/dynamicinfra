@@ -3,6 +3,7 @@ import img1 from '../../Assets/img1.webp'
 import img2 from '../../Assets/img2.webp'
 import img3 from '../../Assets/img3.webp'
 //import aboutusimg from '../../Assets/aboutusimg.webp'
+import { motion, AnimatePresence } from "framer-motion";
 import interior from '../../Assets/interior.webp'
 import construction from '../../Assets/construction.webp'
 import d1 from '../../Assets/images/d1.png'
@@ -98,7 +99,32 @@ const Home = () => {
             img: interior,
             title: 'Raise a Request',
             description: 'Raise a service request or call us at XXXXXXXXXX. Our technical expert will get in touch with you.'
-        }
+        },
+        {
+            img: interior,
+            title: 'Rais a Request',
+            description: 'Raise a service request or call us at XXXXXXXXXX. Our technical expert will get in touch with you.'
+        },
+        {
+            img: interior,
+            title: 'Raise a Request',
+            description: 'Raise a service request or call us at XXXXXXXXXX. Our technical expert will get in touch with you.'
+        },
+        {
+            img: interior,
+            title: 'Raise a Request',
+            description: 'Raise a service request or call us at XXXXXXXXXX. Our technical expert will get in touch with you.'
+        },
+        {
+            img: interior,
+            title: 'Raise a Request',
+            description: 'Raise a service request or call us at XXXXXXXXXX. Our technical expert will get in touch with you.'
+        },
+        {
+            img: interior,
+            title: 'Raise a Request',
+            description: 'Raise a service request or call us at XXXXXXXXXX. Our technical expert will get in touch with you.'
+        },
     ]
 
     const packagetable = [
@@ -206,6 +232,32 @@ const Home = () => {
         }
     ]
 
+    const [activeIndex, setActiveIndex] = useState(0);
+
+    const home3Ref = useRef(null);
+
+    useEffect(() => {
+    const observer = new IntersectionObserver(
+        (entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            } else {
+            entry.target.classList.remove("visible"); // optional if you want it to replay
+            }
+        });
+        },
+        { threshold: 0.3 } // trigger when 30% is visible
+    );
+
+    if (home3Ref.current) {
+        observer.observe(home3Ref.current);
+    }
+
+    return () => {
+        if (home3Ref.current) observer.unobserve(home3Ref.current);
+    };
+    }, []);
 
 
   return (
@@ -243,7 +295,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='home3'>
-                <div className='home3-content'>
+                <div className='home3-content' ref={home3Ref}>
                     <h1>Services</h1>
                     <p>Dynamic interiors has been creating high-end interior designs for years. 
                         What allows the designer to produce functional space planning is our capacity to 
@@ -311,31 +363,44 @@ const Home = () => {
                 <div className='how-it-works'>
                     <h1>How It Works</h1>
                     <p>Our house construction steps are simple and easy to understand</p>
-                    <div className="steps-line">
-                        {steps.map((step, index) => (
-                            <div className="step-wrapper" key={index}>
-                            <div className={`circle ${index === 0 ? "active" : ""}`}>
-                                {index + 1}
-                            </div>
-                            <p>{step}</p>
-                            {index < steps.length - 1 && <div className="line"></div>}
-                            </div>
-                        ))}
-                    </div>   
+                <div className="steps-line">
+                {detailsteps.map((step, index) => (
+                <div
+                    className="step-wrapper"
+                    key={index}
+                    onClick={() => setActiveIndex(index)}
+                >
+                    <div className={`circle ${activeIndex === index ? "active" : ""}`}>
+                    {index + 1}
+                    </div>
+                    <p>{step.title}</p>
+                    {index < detailsteps.length - 1 && <div className="line"></div>}
+                </div>
+                ))}
+                    </div>
+
+                    {/* Animated Detail Steps */}
                     <div className="detail-steps">
-                        {detailsteps.map((detailsteps, index) => (
-                            <div className="detail-wrapper" key={index}>
-                                <img src = {detailsteps.img} alt = 'steps' />
-                                <div className="detail-points">
-                                    <h2>{detailsteps.title}</h2>
-                                    <p>{detailsteps.description}</p>
-                                </div>
+                        <AnimatePresence mode="wait">
+                        <motion.div
+                            key={activeIndex}
+                            className="detail-wrapper"
+                            initial={{ x: 100, opacity: 0 }}
+                            animate={{ x: 0, opacity: 1 }}
+                            exit={{ x: -100, opacity: 0 }}
+                            transition={{ duration: 0.5 }}
+                        >
+                            <img src={detailsteps[activeIndex].img} alt="step" />
+                            <div className="detail-points">
+                            <h2>{detailsteps[activeIndex].title}</h2>
+                            <p>{detailsteps[activeIndex].description}</p>
                             </div>
-                        ))}
+                        </motion.div>
+                        </AnimatePresence>
+                    </div>   
                     </div>
                 </div>
-            </div>
-            <div className='home6'>
+                <div className='home6'>
                 <div className="pros-cons">
                     <h1>Why is Dynamic Infra the Best for Interiors and Construction?</h1>
                     <div className="table">

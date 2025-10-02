@@ -1,6 +1,8 @@
 body{
     overflow-x: hidden;
     min-width: 100%;
+    width: 100%;
+    max-width: 100%;
 }
 .home1 {
     display: flex;
@@ -126,6 +128,19 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .home3-content h1 {
@@ -133,6 +148,8 @@ body{
     font-weight: 300;
     font-size: 4rem;
     color: #000000;
+    animation: slideLeft 1s ease-out forwards;
+    animation-delay: 0.3s;
 }
 
 .home3-content p {
@@ -142,6 +159,30 @@ body{
     font-size: 1.2rem;
     color: #000000;
     text-align: left;
+    animation: slideLeft 1s ease-out forwards;
+    animation-delay: 0.6s;
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .services-imgs {
@@ -157,6 +198,16 @@ body{
 .services-imgs img {
     height: 500px;
     width: 800px;
+    animation: imgwipe 1s ;
+}
+
+@keyframes imgwipe {
+    0% {
+        clip-path: inset(0 100% 0 0); 
+    }
+    100% {
+        clip-path: inset(0 0 0 0); 
+    }
 }
 
 .services-imgs p {
@@ -590,8 +641,9 @@ body{
   cursor: pointer;
   width: 100%;
   text-align: left;
-  color: #fff;
-  background-color: #fd9da5;
+  color: #000;
+  background-color: none;
+  gap: 5px;
 }
 
 .dropdown-menu {
@@ -630,7 +682,7 @@ body{
 
 .drop-details p{
     color: #000;
-    background-color: #fff;
+    background-color: none;
 }
 
 .desc-table {
