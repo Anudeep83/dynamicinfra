@@ -27,12 +27,9 @@ const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const [openIndex, setOpenIndex] = useState(null); 
-    const [selected, setSelected] = useState({});
+    
 
-    const handleSelect = (index, value) => {
-    setSelected((prev) => ({ ...prev, [index]: value }));
-    setOpenIndex(null);
-    };
+    
 
   
 
@@ -74,12 +71,14 @@ const Home = () => {
         { threshold: 0.2 } // 20% visible
         );
 
-        if (contentRef.current) {
+        const node = contentRef.current
+
+        if (node) {
         observer.observe(contentRef.current);
         }
 
         return () => {
-        if (contentRef.current) observer.unobserve(contentRef.current);
+        if (node) observer.unobserve(node);
         };
     }, []);
 
