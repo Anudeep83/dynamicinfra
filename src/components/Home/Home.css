@@ -4,37 +4,37 @@ body{
     width: 100%;
     max-width: 100%;
 }
+/* Base styles for .home1 section */
 .home1 {
     display: flex;
     flex-direction: row;
-    text-align: left;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #000000;
     padding: 24px;
-    gap: 0px;
+    gap: 20px;
     height: 100vh;
     background-size: cover;
     z-index: -2;
+    box-sizing: border-box;
 }
 
-.home-section{
-    padding: none;
+.home-section {
+    padding: 0;
 }
 
 .homee1-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin-left: 200px;
+    justify-content: center;
+    margin-left: 50px;
     z-index: 1;
     position: relative;
-    top: -200px;
-    left:  -300px;
-    width: 70%;
+    top: 0;
+    left: 0;
+    width: 50%;
+    max-width: 600px;
 }
-
-
 
 .homee1-content h1 {
     font-family: "Noto Serif", serif;
@@ -42,7 +42,8 @@ body{
     font-size: 5rem;
     color: #ffffff;
     animation: wipeEffect 0.3s ease-out;
-    text-shadow: 2px 4px 14px rgba(255, 255, 255, 0.5); 
+    text-shadow: 2px 4px 14px rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
 }
 
 .homee1-content p {
@@ -50,33 +51,42 @@ body{
     font-weight: 500;
     font-size: 1.2rem;
     color: #ffffff;
-    width: 70%;
+    width: 100%;
     animation: wipeEffect 0.3s ease-out;
-    text-shadow: 2px 4px 14px rgba(0, 0, 0, 0.5); 
+    text-shadow: 2px 4px 14px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
 }
-
-
 
 @keyframes wipeEffect {
-  0% {
-    clip-path: inset(0 100% 0 0); 
-  }
-  100% {
-    clip-path: inset(0 0 0 0); 
-  }
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
 }
 
+.home1-content {
+    max-height: 700px;
+    max-width: 70%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 .home1-content img {
-    height: 700px;
-    width: 1200px;
-    animation: wipeEffect 0.1s ease-out;
-    position: absolute;
-    top: 1100px;
+    max-height: 700px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    animation: wipeEffect 0.3s ease-out;
     filter: brightness(60%);
-    right: 100px;
-    
+    object-fit: cover;
+    border-radius: 8px;
 }
+
+
 
 .brochure-btn button {
     background-color: #ffffff;
@@ -85,6 +95,7 @@ body{
     font-size: 1rem;
     margin-top: 30px;
     border-radius: 35px;
+    animation: wipeEffect 0.3s ease-out;
 }
 
 .home2 {
