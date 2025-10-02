@@ -243,11 +243,11 @@ const Home = () => {
             if (entry.isIntersecting) {
             entry.target.classList.add("visible");
             } else {
-            entry.target.classList.remove("visible"); // optional if you want it to replay
+            entry.target.classList.remove("visible"); 
             }
         });
         },
-        { threshold: 0.3 } // trigger when 30% is visible
+        { threshold: 0.3 } 
     );
 
     if (home3Ref.current) {
@@ -385,9 +385,9 @@ const Home = () => {
                         <motion.div
                             key={activeIndex}
                             className="detail-wrapper"
-                            initial={{ x: 100, opacity: 0 }}
+                            initial={{ x: -100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
-                            exit={{ x: -100, opacity: 0 }}
+                            exit={{ x: 100, opacity: 0 }}
                             transition={{ duration: 0.5 }}
                         >
                             <img src={detailsteps[activeIndex].img} alt="step" />
