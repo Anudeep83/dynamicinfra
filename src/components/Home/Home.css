@@ -21,6 +21,9 @@ body{
 
 .home-section {
     padding: 0;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
 }
 
 .homee1-content {
@@ -1010,19 +1013,32 @@ body{
 
 /* iPad/Tablet devices (768px to 1024px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav-bar-mobile {
+        display: none;
+    }
+
+    .home-section {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .home1 {
         flex-direction: column;
         height: auto;
         padding: 20px;
         gap: 20px;
+        justify-content: center;
+        align-items: center;
     }
 
     .homee1-content {
         margin-left: 0;
-        top: 0;
-        left: 0;
         width: 100%;
+        max-width: 100%;
         padding: 20px;
+        text-align: center;
+        justify-content: center;
     }
 
     .homee1-content h1 {
@@ -1032,33 +1048,43 @@ body{
 
     .homee1-content p {
         font-size: 1.1rem;
-        width: 90%;
+        width: 100%;
         text-shadow: 1px 3px 10px rgba(0, 0, 0, 0.4);
+        text-align: center;
+    }
+
+    .home1-content {
+        max-width: 100%;
+        max-height: 500px;
+        justify-content: center;
     }
 
     .home1-content img {
-        height: 500px;
+        max-height: 500px;
+        max-width: 100%;
         width: 100%;
+        height: auto;
         position: static;
-        right: 0;
-        top: 0;
-        filter: brightness(60%);
+        border-radius: 6px;
     }
 
     .brochure-btn button {
         padding: 15px;
         font-size: 1rem;
-        margin-top: 25px;
-        width: 50%;
+        width: 200px;
+        margin: 20px auto;
+        display: block;
     }
 
     .home2 {
         height: auto;
         padding: 20px;
+        align-items: center;
     }
 
     .home2 h1 {
         font-size: 2.5rem;
+        text-align: center;
     }
 
     .trust-logos {
@@ -1081,64 +1107,101 @@ body{
         flex-direction: column;
         gap: 20px;
         padding: 20px;
+        transform: none;
+        animation: none;
     }
 
     .home3-content h1 {
         font-size: 3rem;
+        text-align: center;
+        animation: none;
     }
 
     .home3-content p {
-        width: 80%;
+        width: 100%;
         font-size: 1.1rem;
+        text-align: center;
+        animation: none;
     }
 
     .services-imgs {
         flex-direction: row;
         gap: 15px;
         margin-top: 25px;
+        justify-content: center;
     }
 
     .services-imgs img {
         height: 300px;
-        width: 50%;
+        width: 45%;
+        max-width: 400px;
     }
 
     .services-imgs p {
         font-size: 1.5rem;
+        text-align: center;
     }
 
-    .home4, .gallery-section {
+    .home4,
+    .gallery-section {
         height: auto;
-        padding: 20px;
+        padding: 30px;
     }
 
     .gallery-layout {
         flex-direction: row;
         gap: 15px;
+        justify-content: center;
     }
 
-    .big-left, .big-right {
+    .big-left,
+    .big-right {
         flex: 1;
     }
 
     .middle {
         flex: 0.8;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .middle img {
+        width: 100%;
     }
 
     .overlay {
         font-size: 24px;
     }
 
-    .gallery-modal-content { 
+    .gallery-modal {
+        padding: 20px;
+    }
+
+    .gallery-modal-content {
+        width: 90%;
+        max-width: 900px;
         padding: 15px;
     }
 
     .main-image {
         max-height: 70vh;
+        width: 100%;
+    }
+
+    .nav-btn {
+        font-size: 32px;
+        padding: 10px;
+    }
+
+    .close-btn {
+        top: 15px;
+        right: 15px;
+        font-size: 28px;
     }
 
     .gallery-section h1 {
         font-size: 2.5rem;
+        text-align: center;
     }
 
     .home5 {
@@ -1148,38 +1211,59 @@ body{
 
     .how-it-works h1 {
         font-size: 2.5rem;
+        text-align: center;
     }
 
     .how-it-works p {
         font-size: 1rem;
+        text-align: center;
     }
 
     .steps-line {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .step-wrapper {
+        flex-direction: column;
+        align-items: center;
         gap: 10px;
     }
 
     .step-wrapper p {
-        font-size: 1.1rem;
+        font-size: 1rem;
         width: 100px;
-        left: -20px;
+        position: static;
+        text-align: center;
+        margin: 0;
     }
 
     .line {
-        width: 80px;
+        width: 60px;
+        margin: 0;
     }
 
     .detail-steps {
-        width: 80%;
-        margin-top: 100px;
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .detail-wrapper {
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
     }
 
     .detail-wrapper img {
         height: 250px;
-        width: 50%;
+        width: 45%;
+        max-width: 350px;
     }
 
     .detail-points p {
         font-size: 1.5rem;
+        text-align: left;
     }
 
     .home6 {
@@ -1189,25 +1273,31 @@ body{
 
     .pros-cons h1 {
         font-size: 2.5rem;
+        text-align: center;
     }
 
     .table {
         flex-direction: row;
         gap: 15px;
-        margin-top: 100px;
+        margin-top: 50px;
+        justify-content: center;
     }
 
-    .pros, .cons {
+    .pros,
+    .cons {
         min-width: 45%;
+        max-width: 400px;
     }
 
-    .head-pro h1, .head-con h1 {
+    .head-pro h1,
+    .head-con h1 {
         font-size: 1.8rem;
     }
 
-    .pros-table ul li, .cons-table ul li {
+    .pros-table ul li,
+    .cons-table ul li {
         font-size: 1rem;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .home7 {
@@ -1217,17 +1307,21 @@ body{
 
     .packages h1 {
         font-size: 2.5rem;
+        text-align: center;
     }
 
     .package-table {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 15px;
+        justify-content: center;
     }
 
     .package-item {
         width: 45%;
+        max-width: 350px;
         height: auto;
+        padding: 15px;
     }
 
     .package-item p {
@@ -1239,8 +1333,24 @@ body{
         padding: 8px 12px;
     }
 
-    .desc-table th, .desc-table td {
+    .dropdown-menu {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .dropdown-menu li {
         font-size: 1rem;
         padding: 8px 12px;
+    }
+
+    .desc-table th,
+    .desc-table td {
+        font-size: 1rem;
+        padding: 8px 12px;
+    }
+
+    .enquire-btn {
+        padding: 10px;
+        font-size: 1rem;
     }
 }

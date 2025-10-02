@@ -1,9 +1,16 @@
-import  { useEffect, useRef } from 'react';
+import  { useState,useEffect, useRef } from 'react';
 import logo from '../../Assets/logo.webp';
 import hero from '../../Assets/heroimg.webp';
 import './Header.css';
 
 const Header = () => {
+
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+    const toggleNav = () => {
+        setIsNavOpen(!isNavOpen);
+    };
+
   const headerRef = useRef(null);
   useEffect(() => {
     const handleScroll = () => {
@@ -21,6 +28,8 @@ const Header = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+
 
 
   const headerdreamRef = useRef(null);
@@ -92,7 +101,7 @@ const Header = () => {
           <li>Contact</li>
         </nav>
         <nav className='nav-bar-mobile'>
-          
+          <h1>hgygb</h1>
         </nav>
         <div className='header-name' ref={headerRef}>
           <h1>Dynamic <span>Infra Projects</span></h1>
