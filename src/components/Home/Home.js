@@ -243,12 +243,14 @@ const Home = () => {
         { threshold: 0.3 } 
     );
 
-    if (home3Ref.current) {
-        observer.observe(home3Ref.current);
+    const home3Ref = home3Ref.current
+
+    if (home3Ref) {
+        observer.observe(home3Ref);
     }
 
     return () => {
-        if (home3Ref.current) observer.unobserve(home3Ref.current);
+        if (home3Ref) observer.unobserve(home3Ref);
     };
     }, []);
 
