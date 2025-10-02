@@ -85,14 +85,7 @@ const Home = () => {
 
     
 
-    const steps = [
-    "Raise a Request",
-    "Meet our expert",
-    "Book with us",
-    "Receive plans",
-    "Track & Transact",
-    "Settle in"
-    ];
+    
 
     const detailsteps = [
         {
