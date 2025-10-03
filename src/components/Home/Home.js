@@ -2,9 +2,19 @@ import  { useEffect, useRef, useState } from 'react';
 import img1 from '../../Assets/img1.webp'
 import img2 from '../../Assets/img2.webp'
 import img3 from '../../Assets/img3.webp'
+import img4 from '../../Assets/img4.webp'
+import img5 from '../../Assets/img5.webp'
+import img6 from '../../Assets/img6.webp'
 //import aboutusimg from '../../Assets/aboutusimg.webp'
 import { motion, AnimatePresence } from "framer-motion";
 import interior from '../../Assets/interior.webp'
+import interior2 from '../../Assets/interiors2.webp'
+import request from '../../Assets/request.webp'
+import plan from '../../Assets/plan.webp'
+import settle from '../../Assets/settle.webp'
+import track from '../../Assets/track.webp'
+import design from '../../Assets/design.webp'
+import expert from '../../Assets/expert.webp'
 import construction from '../../Assets/construction.webp'
 import arrow from '../../Assets/arrow.webp'
 import d1 from '../../Assets/images/d1.png'
@@ -90,34 +100,34 @@ const Home = () => {
 
     const detailsteps = [
         {
-            img: interior,
+            img: request,
             title: 'Raise a Request',
             description: 'Raise a service request or call us at XXXXXXXXXX. Our technical expert will get in touch with you.'
         },
         {
-            img: interior,
-            title: 'Meet ourExpert',
+            img: expert,
+            title: 'Meet our Expert',
             description: 'Our experts visit you to take all the requirements and submit exhaustive specifications.'
         },
         {
-            img: interior,
+            img: plan,
             title: 'Book with us',
             description: 'Good to go. You pay 10% of the estimated project cost as Booking Amount.'
         },
         {
-            img: interior,
+            img: design,
             title: 'Receive Plans',
             description: 'Our Professional will provide exhaustive drawings and designs till the customer is fully satisfied. Designs include floor plans, 3D elevations, electrical, plumbing and structural designs.'
         },
         {
-            img: interior,
+            img: track,
             title: 'Track & Transact',
             description: 'To ensure absolute trust, Brick&Bolt provides an escrow model where you transfer the amount for stage of the project. You can track the project through our customer application.'
         },
         {
-            img: interior,
+            img: settle,
             title: 'Settle in',
-            description: 'To ensure absolute trust, Brick&Bolt provides an escrow model where you transfer the amount for stage of the project. You can track the project through our customer application.'
+            description: 'We make sure you are well settled in your new home. Our journey together doesn"t end here. We provide 10 years of warranty.'
         },
     ]
 
@@ -1283,9 +1293,9 @@ const Home = () => {
                     <img className='trust-logos' src={img2} alt='img1'/>
                     <img className='trust-logos' src={img3} alt='img1'/>
                     <hr className="custom-hr" /> 
-                    <img className='trust-logos' src={img1} alt='img1'/>
-                    <img className='trust-logos' src={img2} alt='img1'/>
-                    <img className='trust-logos' src={img3} alt='img1'/>
+                    <img className='trust-logos' src={img4} alt='img1'/>
+                    <img className='trust-logos' src={img5} alt='img1'/>
+                    <img className='trust-logos' src={img6} alt='img1'/>
                 </div>
                 <div>
                     <button className='home2-btn'>Start your construction</button>
@@ -1304,7 +1314,7 @@ const Home = () => {
                         <p>Construction</p>
                     </div>
                     <div>
-                        <img src = {interior} alt='interior1'/>
+                        <img src = {interior2} alt='interior1'/>
                         <p>Interior</p>
                     </div>
                 </div>
