@@ -7,13 +7,14 @@ body{
 
 .form-section{
     position: absolute;
-    top: 250px;
+    top: 300px;
     background-color: #fff;
     border-radius: 12px;
     border: 4px solid #000;
-    width: 20%;
+    z-index: 100;
     height: auto;
     padding: 12px;
+    box-sizing: border-box;
     margin-left: 75%;
     transition: transform 0.3s linear;
     
@@ -66,12 +67,26 @@ body{
     color: #92101b;
 }
 
+@media (max-width:1024px) {
+    .form-section{
+        max-width: auto;
+        top: 10%;
+        left: 50%;
+        padding: 24px ;
+        margin: 15px auto;
+        border: 1px solid #000;
+        transform: none;
+        height: auto;
+    }
+}
+
 
 @media (max-width: 768px) {
     .form-section {
         position: relative;
         top: 0;
-        width: 90%;
+        left: 0;
+        max-width: 100%;
         padding: 24px ;
         margin: 15px auto;
         border: 1px solid #000;

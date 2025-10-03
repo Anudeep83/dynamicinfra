@@ -164,7 +164,7 @@ li:hover::after {
   }
 
   .hero-image {
-    width: 80%;
+    width: 50%;
     height: auto;
     top: 5%;
   }
