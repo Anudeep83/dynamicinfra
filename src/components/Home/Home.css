@@ -135,9 +135,7 @@ body{
 }
 
 .img-section{
-    background-image: url(../../Assets/constructionlogo.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
+    
     height: auto;
 }
 
