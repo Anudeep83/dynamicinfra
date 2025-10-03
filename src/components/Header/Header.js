@@ -1,11 +1,12 @@
-import  { useEffect, useRef } from 'react';
+import  {useState ,useEffect, useRef } from 'react';
 import logo from '../../Assets/logo.webp';
 import hero from '../../Assets/heroimg.webp';
 import './Header.css';
 
 const Header = () => {
 
- 
+ const [isNavOpen, setIsNavOpen] = useState(false);
+     const toggleNav = () => setIsNavOpen(!isNavOpen);
    
 
   const headerRef = useRef(null);
@@ -91,14 +92,25 @@ const Header = () => {
       <div className='header-section animate'>
         <nav className='nav-bar'>
           <img src={logo} alt = 'logo'/>
-          <li>Home</li>
-          <li>Services</li>
-          <li>Gallery</li>
-          <li>AboutUs</li>
-          <li>Contact</li>
+          <a href="#home"><li>Home</li></a>
+          <a href="#aboutUs"><li>AboutUs</li></a>
+          <a href="#services"><li>Services</li></a>
+          <a href="#gallery"><li>Gallery</li></a>
+          <a href="#contact"><li>Contact</li></a>
         </nav>
         <nav className='nav-bar-mobile'>
-          <h1>hgygb</h1>
+           <div className={`hamburger ${isNavOpen ? 'active' : ''}`} onClick={toggleNav}>
+             <span></span>
+             <span></span>
+             <span></span>
+           </div>
+           <div className={`nav-menu ${isNavOpen ? 'active' : ''}`}>
+             <a href="#home">Home</a>
+             <a href="#aboutUs">AboutUs</a>
+             <a href="#services">Services</a>
+             <a href="#gallery">Gallery</a>
+             <a href="#contact">Contact</a>
+           </div>
         </nav>
         <div className='header-name' ref={headerRef}>
           <h1>Dynamic <span>Infra Projects</span></h1>

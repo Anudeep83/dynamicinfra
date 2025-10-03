@@ -3,6 +3,7 @@ body{
     min-width: 100%;
     width: 100%;
     max-width: 100%;
+    z-index: 0;
 }
 
 .form-section{
@@ -77,6 +78,7 @@ body{
         border: 1px solid #000;
         transform: none;
         height: auto;
+        z-index: -1;
     }
 }
 
@@ -92,6 +94,7 @@ body{
         border: 1px solid #000;
         transform: none;
         height: auto;
+        z-index: -1;
     }
 
     .form-section h1 {
@@ -123,11 +126,12 @@ body{
     .form-section {
         position: relative;
         top: 0;
-        width: 95%;
+        width: 100%;
         padding: 12px;
         margin: 15px auto;
         border: 1px solid #000;
         transform: none;
+        z-index: -1;
     }
 
     .form-section h1 {

@@ -18,7 +18,7 @@ const ContactUs = () => {
   ];
 
   return (
-    <div className="contact-container">
+    <div id = 'contact' className="contact-container">
       <h1 className="contact-title">Contact Us</h1>
       <div className="contact-grid">
         {contactDetails.map((item, index) => (

@@ -28,6 +28,7 @@ import d8 from '../../Assets/images/d8.png'
 import d9 from '../../Assets/images/d9.png'
 import d10 from '../../Assets/images/d10.png'
 import d11 from '../../Assets/images/d11.png'
+import pdf from '../../Assets/DYNAMIC INTERIORS BROCHURE.pdf'
 import './Home.css'
 const Home = () => {
 
@@ -1255,7 +1256,7 @@ const Home = () => {
   return (
     <div>
         <div className='home-section'>
-            <div className='home1'>
+            <div id = 'aboutUs' className='home1'>
                 <div className='homee1-content' ref={contentRef} >
                     <h1 >Building Dreams. Designing Spaces.</h1>
                     <p >At Dynamic Infra Projects,  is a one-stop solution for Construction and Interiors across Karnataka. With over 10 years of expertise, we specialize in creating exceptional residential and commercial spaces that are elegant, functional, and built to last.</p>
@@ -1278,7 +1279,10 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='brochure-btn'>
-                        <button>Download Brouchre</button>
+                        <a href= {pdf} download>
+                            <button type="button">Download Brochure</button>
+                        </a>
+
                     </div>
                 </div>
                 <div className='home1-content'>
@@ -1301,7 +1305,7 @@ const Home = () => {
                     <button className='home2-btn'>Start your construction</button>
                 </div>
             </div>
-            <div className='home3'>
+            <div id = 'services' className='home3'>
                 <div className='home3-content' ref={home3Ref}>
                     <h1>Services</h1>
                     <p>Dynamic interiors has been creating high-end interior designs for years. 
@@ -1319,7 +1323,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='home4'>
+            <div id = 'gallery' className='home4'>
             <div className="gallery-section">
             <h1>Gallery</h1>
             <div className="gallery-layout">
