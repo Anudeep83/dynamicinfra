@@ -68,7 +68,7 @@ const Form = () => {
                             <div>
                                 <button type='submit'>Start your construction</button>
                             </div>
-                            <p><a>*</a>By submitting this form, 
+                            <p><a href= "home">*</a>By submitting this form, 
                                I confirm that I have read and agreed to accept Brick&Bolt's <a href='#home'>privacy policy</a></p>
                         </div>
                     </form>
