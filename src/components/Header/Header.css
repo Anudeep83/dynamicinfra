@@ -204,10 +204,10 @@ li:hover::after {
   }
 }
 
-@media screen and  (max-width: 468px) {
+@media screen and (max-width: 468px) {
   
     .header-name h1 {
-        margin-top: 210px;
+        margin-top: 200px;
         font-size: 1.2rem;
     }
 
