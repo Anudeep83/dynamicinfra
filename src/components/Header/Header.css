@@ -231,7 +231,7 @@ li:hover::after {
         padding: 14px 20px;
         position: relative;
         top: 10px;
-        left: 100px;
+        left: 30px;
         
     }
 
@@ -272,7 +272,6 @@ li:hover::after {
         top: 100%;
         left: -300px;
         height: auto;
-        
         width: 100vw;
         flex-wrap: wrap;
         background: #000000;
