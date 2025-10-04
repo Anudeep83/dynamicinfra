@@ -318,6 +318,14 @@ li:hover::after {
         }
     }
 
+    .hero-section,
+    .header-section,
+    .hero-image,
+    .header-name,
+    .dreams {
+      pointer-events: none !important;
+    }
+
     .hero-image{
         height: 25%;
         width: 60%;
