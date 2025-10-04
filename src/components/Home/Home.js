@@ -1260,7 +1260,7 @@ const Home = () => {
                 <div className='homee1-content' ref={contentRef} >
                     <h1 >Building Dreams. Designing Spaces.</h1>
                     <p >At Dynamic Infra Projects,  is a one-stop solution for Construction and Interiors across Karnataka. With over 10 years of expertise, we specialize in creating exceptional residential and commercial spaces that are elegant, functional, and built to last.</p>
-                    <div className='services-section'>
+                    <div className='services-section' >
                         <div >
                             <h3>Residential Construction & Interiors</h3>
                             <p>From concept to completion, we design and build dream homes with precision and creativity. Whether it’s a new build or a renovation, our team delivers:
@@ -1411,6 +1411,7 @@ const Home = () => {
                     </div>   
                     </div>
                 </div>
+                
                 <div className='home6'>
                 <div className="pros-cons">
                     <h1>Why is Dynamic Infra the Best for Interiors and Construction?</h1>

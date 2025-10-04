@@ -73,6 +73,7 @@ body{
     flex-direction: row;
     gap: 20px;
     align-items: flex-end;
+    
 }
 
 a,li {
@@ -82,6 +83,7 @@ a,li {
   cursor: pointer;
   text-decoration: none;
   color: #000;
+  
 }
 
 li::after {
