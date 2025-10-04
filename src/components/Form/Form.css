@@ -140,7 +140,7 @@ body{
         margin-left: 0;
         border: 1px solid #000;
         transform: none;
-        z-index: 999999;
+        z-index: 10;
 
     }
 
