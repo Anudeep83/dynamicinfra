@@ -9,7 +9,7 @@ const Form = () => {
         const handleScroll = () => {
           const scrollY = window.scrollY;
           const windowWidth = window.innerWidth;
-    
+            if (windowWidth <= 1024) return;
           if (headerRef.current) {
             
             const translateX = scrollY * 2; 

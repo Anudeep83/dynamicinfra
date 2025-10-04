@@ -57,7 +57,9 @@ const Header = () => {
     const handleScrollImg = () => {
       const scrollY = window.scrollY; // use vertical scroll
       const windowHeight = window.innerHeight;
-      if (windowHeight <= 1024) return;
+      const windowWidth = window.innerWidth;
+      if (windowWidth <= 1024) return;
+
 
       if (headerimgRef.current) {
         const translateY = scrollY * 2; // adjust speed
