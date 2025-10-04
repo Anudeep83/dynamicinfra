@@ -155,22 +155,27 @@ li:hover::after {
 
 @media (max-width: 1024px) {
   .hero-section {
-    height: 50vh;
+    height: 60vh;
     width: 100%;
+  }
+
+  .header-section{
+    justify-content: center;
+    align-items: center;
   }
 
   
 
   .header-name h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
-    margin: 0;
+    margin-right: 0;
   }
 
   .hero-image {
     width: 50%;
     height: auto;
-    top: 5%;
+    top: 25%;
   }
 
   .nav-bar {
@@ -190,7 +195,7 @@ li:hover::after {
 
   .dreams {
     font-size: 1.2rem;
-    top: 400px;
+    top: 600px;
     left: 10px;
     z-index: -1;
   }
@@ -198,7 +203,7 @@ li:hover::after {
 
 @media (max-width: 480px) {
     .header-name h1 {
-        margin-top: 200px;
+        margin-top: 300px;
         font-size: 1.2rem;
     }
 
@@ -206,7 +211,11 @@ li:hover::after {
       position: absolute;
       top: -120px;
     }
-
+    
+      .header-section{
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
 
     
     .nav-bar-mobile {
@@ -216,8 +225,8 @@ li:hover::after {
         align-items: flex-end;
         padding: 14px 20px;
         position: relative;
-        top: 0;
-        left: 30px;
+        top: 10px;
+        left: 40px;
         
     }
 
@@ -308,7 +317,7 @@ li:hover::after {
     .hero-image{
         height: 25%;
         width: 70%;
-        
+        top:0;
     }
 
     .nav-bar{
