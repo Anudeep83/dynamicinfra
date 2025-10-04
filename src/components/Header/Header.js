@@ -65,6 +65,9 @@ const Header = () => {
         const translateY = scrollY * 2; // adjust speed
         const maxTranslate = windowHeight + 200;
         headerimgRef.current.style.transform = `translateY(${Math.min(translateY, maxTranslate)}px)`;
+
+        const opacity = Math.max(1 - scrollY / 500, 0); // fades between 0–500px scroll
+        headerimgRef.current.style.opacity = opacity;
       }
     };
 

@@ -42,12 +42,15 @@ body{
 .contact-item p {
     display: grid;
     grid-template-columns:  1fr;
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 1rem;
+}
 
-  font-family: "Noto Serif", serif;
-  font-weight: 500;
-  color: #fff;
-  line-height: 1.6;
-  font-size: 1rem;
+.contact-item span{
+  font-size: 0.8rem;
 }
 
 /* Responsive: 3 columns on medium+ screens */
