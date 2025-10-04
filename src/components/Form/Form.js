@@ -65,7 +65,9 @@ const Form = () => {
                             <input type='text' id = 'plot' placeholder='Location of your plot' onChange={handleChange} value={formData.plot}/>
                         </div>
                         <div className='btn-content'>
-                            <button type='submit'>Start your construction</button>
+                            <div>
+                                <button type='submit'>Start your construction</button>
+                            </div>
                             <p><a>*</a>By submitting this form, 
                                I confirm that I have read and agreed to accept Brick&Bolt's <a href='#home'>privacy policy</a></p>
                         </div>
