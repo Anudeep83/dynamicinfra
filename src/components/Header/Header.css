@@ -43,6 +43,7 @@ body{
     font-style: normal;
     font-size: 5rem;
     color: #92101b;
+    padding:10px;
     margin-right: 180px;
     text-shadow: 2px 5px 14px rgba(0, 0, 0, 0.3);
 }
@@ -202,6 +203,7 @@ li:hover::after {
 }
 
 @media (max-width: 480px) {
+  
     .header-name h1 {
         margin-top: 300px;
         font-size: 1.2rem;
@@ -209,7 +211,7 @@ li:hover::after {
 
     .header-name{
       position: absolute;
-      top: -70px;
+      top: -50px;
     }
     
       .header-section{
@@ -265,7 +267,7 @@ li:hover::after {
         display: none;
         position: absolute;
         top: 100%;
-        left: -450px;
+        left: -300px;
         height: auto;
         
         width: 100vw;
@@ -316,7 +318,7 @@ li:hover::after {
 
     .hero-image{
         height: 25%;
-        width: 70%;
+        width: 60%;
         top:10%;
     }
 
