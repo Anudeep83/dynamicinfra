@@ -14,6 +14,7 @@ const Header = () => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       const windowWidth = window.innerWidth;
+      if (windowWidth <= 1024) return;
 
       if (headerRef.current) {
         
@@ -35,6 +36,7 @@ const Header = () => {
     const handledreamScroll = () => {
       const scrollY = window.scrollY;
       const windowWidth = window.innerWidth;
+      if (windowWidth <= 1024) return;
 
       if (headerdreamRef.current) {
         
@@ -55,6 +57,7 @@ const Header = () => {
     const handleScrollImg = () => {
       const scrollY = window.scrollY; // use vertical scroll
       const windowHeight = window.innerHeight;
+      if (windowHeight <= 1024) return;
 
       if (headerimgRef.current) {
         const translateY = scrollY * 2; // adjust speed

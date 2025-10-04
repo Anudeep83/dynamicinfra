@@ -1257,7 +1257,7 @@ const Home = () => {
     <div>
         <div className='home-section'>
             <div id = 'aboutUs' className='home1'>
-                <div className='homee1-content'  >
+                <div className='homee1-content' ref={contentRef} >
                     <h1 >Building Dreams. Designing Spaces.</h1>
                     <p >At Dynamic Infra Projects,  is a one-stop solution for Construction and Interiors across Karnataka. With over 10 years of expertise, we specialize in creating exceptional residential and commercial spaces that are elegant, functional, and built to last.</p>
                     <div className='services-section'>
@@ -1306,7 +1306,7 @@ const Home = () => {
                 </div>
             </div>
             <div id = 'services' className='home3'>
-                <div className='home3-content' >
+                <div className='home3-content' ref={home3Ref}>
                     <h1>Services</h1>
                     <p>Dynamic interiors has been creating high-end interior designs for years. 
                         What allows the designer to produce functional space planning is our capacity to 
@@ -1475,7 +1475,7 @@ const Home = () => {
                                 <table className="desc-table">
                                 <tbody>
                                     {item.description.map((desc, idx) => (
-                                    <tr key={idx} >
+                                    <tr key={idx}>
                                         <td>{desc.name}</td>
                                         <td>{desc.usage}</td>
                                     </tr>
