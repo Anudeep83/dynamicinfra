@@ -4,6 +4,7 @@ const ContactUs = () => {
   const contactDetails = [
     {
       label: "Address",
+      name: 'Dynamic Infra Projects',
       value:
         "Ground floor, manito northlite building, Ananthapura St, near HDFC bank, Yelahanka, Bengaluru, Karnataka 560064",
     },
@@ -23,7 +24,7 @@ const ContactUs = () => {
       <div className="contact-grid">
         {contactDetails.map((item, index) => (
           <div className="contact-item" key={index}>
-            <h2>{item.label}</h2>
+            <h2>{item.label}: <span>{item.name}</span></h2>
             {Array.isArray(item.value) ? (
               item.value.map((val, idx) => <p key={idx}>{val}</p>)
             ) : (
