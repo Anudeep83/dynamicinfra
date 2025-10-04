@@ -209,7 +209,7 @@ li:hover::after {
 
     .header-name{
       position: absolute;
-      top: -120px;
+      top: -100px;
     }
     
       .header-section{
@@ -226,7 +226,7 @@ li:hover::after {
         padding: 14px 20px;
         position: relative;
         top: 10px;
-        left: 40px;
+        left: 50px;
         
     }
 
@@ -265,7 +265,7 @@ li:hover::after {
         display: none;
         position: absolute;
         top: 100%;
-        left: -380px;
+        left: -350px;
         height: auto;
         
         width: 100vw;
@@ -338,7 +338,7 @@ li:hover::after {
 
     .dreams {
         font-size: 1rem;
-        top: 200px;
+        top: 220px;
         left: 8px;
     }
 
