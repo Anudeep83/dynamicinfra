@@ -204,22 +204,22 @@ li:hover::after {
   }
 }
 
-@media screen and (max-width: 468px) {
+@media screen and  (max-width: 468px) {
   
     .header-name h1 {
-        margin-top: 400px;
+        margin-top: 210px;
         font-size: 1.2rem;
     }
 
     .header-name{
       position: absolute;
-      top: -50px;
+      top: 10px;
     }
     
       .header-section{
         justify-content: flex-end;
         align-items: flex-end;
-        z-index: 999;
+        z-index: 1000;
       }
 
     
@@ -270,15 +270,16 @@ li:hover::after {
         display: none;
         position: absolute;
         top: 100%;
-        left: -300px;
+        left: -360px;
         height: auto;
-        width: 80vw;
+        width: 100vw;
         flex-wrap: wrap;
         background: #000000;
         flex-direction: column;
         padding: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
         animation: slideDown 0.3s ease-out;
+        z-index: 100000000;
     }
 
     .nav-bar-mobile .nav-menu.active {
@@ -318,18 +319,10 @@ li:hover::after {
         }
     }
 
-    .hero-section,
-    .header-section,
-    .hero-image,
-    .header-name,
-    .dreams {
-      pointer-events: none !important;
-    }
-
     .hero-image{
         height: 25%;
-        width: 60%;
-        top:10%;
+        width: 80%;
+        top:0;
     }
 
     .nav-bar{
