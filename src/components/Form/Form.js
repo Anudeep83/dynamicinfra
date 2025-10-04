@@ -11,7 +11,6 @@ const Form = () => {
           const windowWidth = window.innerWidth;
             if (windowWidth <= 1024) return;
           if (headerRef.current) {
-            
             const translateX = scrollY * 2; 
             
             const maxTranslate = windowWidth + 200; 
