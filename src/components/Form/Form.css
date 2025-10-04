@@ -79,24 +79,23 @@ body{
         border: 1px solid #000;
         transform: none;
         height: auto;
-        z-index: 1000;
+        z-index: 5000;
     }
 
 }
 
 
 @media (max-width: 768px) {
-    .form-section {
-        position: relative;
-        top: 0;
-        left: 0;
+    .form-section{
         max-width: 100%;
+        top: 15%;
+        left: 50%;
         padding: 24px ;
         margin: 15px auto;
         border: 1px solid #000;
         transform: none;
         height: auto;
-        z-index: 1000;
+        z-index: 5000;
     }
 
 
@@ -134,7 +133,7 @@ body{
         
         border: 1px solid #000;
         transform: none;
-        z-index: 1000;
+        z-index: 5000;
     }
 
     .form-section h1 {
