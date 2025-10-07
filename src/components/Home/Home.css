@@ -667,16 +667,16 @@ body{
     display: flex;
     gap: 16px;
     justify-content: center;
-    align-items: center;   
+    align-items: flex-start;   
     flex-wrap: wrap;          
 }
 
 .package-item {
     border: 2px solid #000000;
-    
-    text-align: center;
+    text-align: left;
     width: 300px;
     height: auto;
+    max-height: 100%;
     padding: 0px 0px; 
 }
 
@@ -808,7 +808,8 @@ body{
     box-sizing: content-box;
     font-family: "Noto Serif", serif;
     font-style: italic;
-    margin-bottom:10px;   
+    margin-bottom:10px;
+    margin-left:25%;   
 }
 
 .enquire-btn:hover{
