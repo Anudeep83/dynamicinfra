@@ -103,7 +103,7 @@ const Home = () => {
         {
             img: request,
             title: 'Raise a Request',
-            description: 'Raise a service request or call us at XXXXXXXXXX. Our technical expert will get in touch with you.'
+            description: 'Raise a service request or call us at 7483793308. Our technical expert will get in touch with you.'
         },
         {
             img: expert,
@@ -113,7 +113,7 @@ const Home = () => {
         {
             img: plan,
             title: 'Book with us',
-            description: 'Good to go. You pay 10% of the estimated project cost as Booking Amount.'
+            description: 'Good to go. You pay 10% of the estimated project constructionst as Booking Amount.'
         },
         {
             img: design,
@@ -134,7 +134,7 @@ const Home = () => {
 
     const packagetable = [
         {
-            title: 'elagance',
+            title: 'Elagance Package',
             price:'Rs 1,779/Sq.Ft.',
             packagetitle:[
                 {
@@ -142,23 +142,23 @@ const Home = () => {
                     description:[
                         {
                         name:'2D Floor Plan	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'3D Elevation	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'Architectural Working Drawings (GFC Drawings)	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'Structural Drawings as per IS Codes	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'MEP Drawings	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'VR & AR Tour	',
@@ -221,11 +221,11 @@ const Home = () => {
                     ]
                 },
                 {
-                    category: 'Structure',
+                    category: 'Bathroom',
                     description:[
                         {
-                        name:'Bathroom',
-                        usage:'Ceramic wall tiles	'
+                        name:'Ceramic wall tiles	',
+                        usage:'Upto ₹40/sqft (7’0″ Height)'
                         },
                         {
                         name:'Sanitary ware & CP fittings (inclusive of Commode, Mixer, Health Faucet, Soap Dish, Towel Rail etc.)	',
@@ -250,7 +250,7 @@ const Home = () => {
                         },
                         {
                         name:'Solar Water Heater/Geyser Provision		',
-                        usage:'included'
+                        usage:'Included'
                         }
                     ]
                 },
@@ -348,10 +348,10 @@ const Home = () => {
                     ]
                 },
                 {
-                    category: 'Elevation Cose',
+                    category: 'Elevation constructionse',
                     description:[
                         {
-                        name:'Elevation cost included in the package	',
+                        name:'Elevation constructionst included in the package	',
                         usage:'0.25% of the total project value'
                         }
                     ]
@@ -393,11 +393,11 @@ const Home = () => {
                         },
                         {
                         name:'Anti-Termite Treatment	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'Rain water harvesting pit (Ground water recharge facility)	',
-                        usage:'included'
+                        usage:'Included'
                         }
 
                     ]
@@ -407,7 +407,7 @@ const Home = () => {
 
         },
         {
-            title: 'elite',
+            title: 'Premium package',
             price:'Rs 1,999/Sq.Ft.',
             packagetitle:[
                 {
@@ -415,27 +415,27 @@ const Home = () => {
                     description:[
                         {
                         name:'2D Floor Plan	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'3D Elevation	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'Architectural Working Drawings (GFC Drawings)	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'Structural Drawings as per IS Codes	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'MEP Drawings	',
-                        usage:'included'
+                        usage:'Iincluded'
                         },
                         {
                         name:'VR & AR Tour	',
-                        usage:'not included'
+                        usage:'Not included'
                         },
                     ]
                 },
@@ -444,7 +444,7 @@ const Home = () => {
                     description:[
                         {
                         name:'Steel',
-                        usage:'A1 gold/ Kamadhenu/ equivalent'
+                        usage:'JSW Neo Steel/ Indus/ equivalent'
                         },
                         {
                         name:'Aggregates',
@@ -456,7 +456,7 @@ const Home = () => {
                         },
                         {
                         name:'Cement',
-                        usage:'Zuari/ Dalmia/ equivalent (43 or 53 Grade)'
+                        usage:'ACC/ Ramco/ equivalent (43 or 53 Grade)'
                         },
                                                 {
                         name:'RCC Design Mix	',
@@ -464,7 +464,7 @@ const Home = () => {
                         },
                         {
                         name:'Ceiling Height	',
-                        usage:'10’0″ height (Floor to floor height)'
+                        usage:'10’6″” height (Floor to floor height)'
                         },
                     ]
                 },
@@ -473,40 +473,40 @@ const Home = () => {
                     description:[
                         {
                         name:'Countertop',
-                        usage:'Granite (Upto ₹120/sqft)'
+                        usage:'Granite (Upto ₹150/sqft)'
                         },
                         {
                         name:'Ceramic wall tiles (2 ft. above Kitchen Slab)	',
-                        usage:'Upto ₹40/sqft'
+                        usage:'Upto ₹70/sqft'
                         },
                         {
                         name:'Accessories & Any other Faucet	',
-                        usage:'ISI Marked'
+                        usage:'Jaguar, Parryware, Hindware or equivalent'
                         },
                         {
                         name:'Kitchen Sink	',
-                        usage:'Stainless steel single sink (Upto ₹3000)'
+                        usage:'Stainless steel single sink (Upto ₹6000)'
                         },
                         {
                         name:'Main Sink Faucet	',
-                        usage:'Upto ₹1500'
+                        usage:'Upto ₹3000'
                         }
                     ]
                 },
                 {
-                    category: 'Structure',
+                    category: 'Bathroom',
                     description:[
                         {
-                        name:'Bathroom',
-                        usage:'Ceramic wall tiles	'
+                        name:'Ceramic wall tiles	',
+                        usage:'Upto ₹60/sqft (7’0″” Height)'
                         },
                         {
                         name:'Sanitary ware & CP fittings (inclusive of Commode, Mixer, Health Faucet, Soap Dish, Towel Rail etc.)	',
-                        usage:'Upto ₹16,500 per Bathroom'
+                        usage:'Upto ₹28,000 per Bathroom'
                         },
                                                 {
-                        name:'BlocBathroom Doors',
-                        usage:'Waterproof flush doors Upto ₹7000 till 500 sqft of the package BuA'
+                        name:'Bathroom Doors',
+                        usage:'Waterproof flush doors Upto ₹9000 till 500 sqft of the package BuA'
                         },
                         {
                         name:'Glass partition in Bathroom	',
@@ -519,11 +519,11 @@ const Home = () => {
                     description:[
                         {
                         name:'CPVC Pipes',
-                        usage:'Astral/ Prince/ equivalent'
+                        usage:'Ashirwad/ Supreme/ equivalent'
                         },
                         {
                         name:'Solar Water Heater/Geyser Provision		',
-                        usage:'included'
+                        usage:'Included'
                         }
                     ]
                 },
@@ -532,23 +532,23 @@ const Home = () => {
                     description:[
                         {
                         name:'Main door	',
-                        usage:'Teak door with teak frame of 5″x3″ – ₹20,000 Including Fixtures'
+                        usage:'Teak door with teak frame of 5"x3" - ₹40,000 Including Fixtures'
                         },
                         {
                         name:'Internal doors	',
-                        usage:'Sal wood frame of 2.5″x4″ & Flush shutters with laminates (30mm) upto ₹8000 including fixtures till 500 sqft of the package BuA'
+                        usage:'Sal wood frame of 2.5"x4" & Flush shutters with laminates (30mm) upto ₹11,000 including fixtures till 500 sqft of the package BuA'
                         },
                         {
                         name:'Pooja room door	',
-                        usage:'Not included'
+                        usage:'Teak door with teak frame of 5"x2.5" - ₹30,000 Including Fixtures'
                         },
                         {
                         name:'Windows',
-                        usage:'Aluminium window with glass shutters and Mesh shutters (3 Tracks with 1 mesh) - ₹250/Sqft'
+                        usage:'UPVC Windows with Glass and Mesh Shutters (3 Tracks with 1 Mesh) - ₹450/Sqft'
                         },
                         {
                         name:'Window Grill	',
-                        usage:'MS Grill with Enamel paint (₹115/sqft)'
+                        usage:'MS Grill with Enamel Paint (₹150/sqft)'
                         },
                         {
                         name:'Windows Opening Percentage	',
@@ -561,11 +561,11 @@ const Home = () => {
                     description:[
                         {
                         name:'Interior Painting	',
-                        usage:'JK Putty + Tractor Emulsion'
+                        usage:'JK Putty + Aapcollite Premium Emulsion'
                         },
                         {
                         name:'Exterior Painting	',
-                        usage:'Asian Primer + Ace Exterior Emulsion Paint'
+                        usage:'Asian Primer + Apex Exterior Emulsion Paint'
                         }
                     ]
                 },
@@ -574,31 +574,31 @@ const Home = () => {
                     description:[
                         {
                         name:'Living and Dining flooring	',
-                        usage:'Vitrified Tiles (Upto ₹60/sqft)'
+                        usage:'Granite or Vitrified Tiles (Upto ₹100/sqft)'
                         },
                         {
                         name:'Rooms and Kitchen Flooring	',
-                        usage:'Tiles (Upto ₹60/sqft)'
+                        usage:'Tiles (Upto ₹80/sqft)'
                         },
                                                 {
                         name:'Balcony and Open area flooring	',
-                        usage:'Anti-skid tiles (Upto ₹45/sqft)'
+                        usage:'Anti skid tiles (Upto ₹60/sqft)'
                         },
                         {
                         name:'Staircase Flooring	',
-                        usage:'Sadarahaali Granite (Upto ₹80/sqft)'
+                        usage:'Polished Granite (Upto ₹100/sqft)'
                         },
                                                 {
                         name:'Bathroom Tiles	',
-                        usage:'Anti-skid tiles (Upto ₹45/sqft)'
+                        usage:'Anti-skid tiles (Upto ₹60/sqft)'
                         },
                                                 {
                         name:'Parking Tiles	',
-                        usage:'Parking tiles (Upto ₹40/sqft)'
+                        usage:'Parking tiles (Upto ₹60/sqft)'
                         },
                         {
                         name:'Pooja Room Wall Tiles	',
-                        usage:'Not included'
+                        usage:'Upto ₹60/sqft (7’0″ Height)'
                         }
                     ]
                 },
@@ -607,25 +607,25 @@ const Home = () => {
                     description:[
                         {
                         name:'Wires',
-                        usage:'Fireproof (Anchor or equivalent)'
+                        usage:'Fireproof (Finolex or Equivalent )'
                         },
                         {
                         name:'Switches and Sockets	',
-                        usage:'GM (basic) or equivalent'
+                        usage:'Anchor-Roma or Equivalent'
                         }
                         ,
                         {
                         name:'CCTV, UPS & EV charging point wiring provision	',
-                        usage:'Not included'
+                        usage:'Included'
                         }
                     ]
                 },
                 {
-                    category: 'Elevation Cose',
+                    category: 'Elevation constructionse',
                     description:[
                         {
-                        name:'Elevation cost included in the package	',
-                        usage:'0.25% of the total project value'
+                        name:'Elevation constructionst included in the package	',
+                        usage:'0.5% of the total project value'
                         }
                     ]
                 },
@@ -634,11 +634,11 @@ const Home = () => {
                     description:[
                         {
                         name:'Over-head tank	',
-                        usage:'Sintex triple layered (1000 Litre)'
+                        usage:'Sintex triple layered (2000 Litre)'
                         },
                         {
                         name:'Underground Sump	',
-                        usage:'6000 Litre built with 6″ solid blocks (Customisable)'
+                        usage:'8000 Litre built with 6″ solid blocks (Customisable)'
                         },
                         {
                         name:'Internal Lofts',
@@ -646,11 +646,11 @@ const Home = () => {
                         },
                         {
                         name:'External staircase railings',
-                        usage:'MS Railings Upto ₹150/sqft'
+                        usage:'MS Railings Upto ₹200/sqft'
                         },
                         {
                         name:'Internal staircase railings',
-                        usage:'MS Railings Upto ₹150/sqft'
+                        usage:'MS Railings Upto ₹200/sqft'
                         },
                         {
                         name:'Balcony railings	',
@@ -666,11 +666,11 @@ const Home = () => {
                         },
                         {
                         name:'Anti-Termite Treatment	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'Rain water harvesting pit (Ground water recharge facility)	',
-                        usage:'included'
+                        usage:'Included'
                         }
 
                     ]
@@ -678,7 +678,7 @@ const Home = () => {
             ]
         },
         {
-            title: 'premium',
+            title: 'Elite Package',
             price:'Rs. 2249/Sq.Ft.',
             packagetitle:[
                 {
@@ -686,27 +686,27 @@ const Home = () => {
                     description:[
                         {
                         name:'2D Floor Plan	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'3D Elevation	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'Architectural Working Drawings (GFC Drawings)	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'Structural Drawings as per IS Codes	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'MEP Drawings	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'VR & AR Tour	',
-                        usage:'not included'
+                        usage:'Not Included'
                         },
                     ]
                 },
@@ -715,7 +715,7 @@ const Home = () => {
                     description:[
                         {
                         name:'Steel',
-                        usage:'A1 gold/ Kamadhenu/ equivalent'
+                        usage:'JSW Neo Steel/ Indus/ equivalent'
                         },
                         {
                         name:'Aggregates',
@@ -723,11 +723,11 @@ const Home = () => {
                         },
                                                 {
                         name:'Blocks',
-                        usage:'Solid concrete blocks – 6″ & 4″'
+                        usage:'Hydraulic Pressed Blocks – 6″ & 4″ (Apco/ AVS/ equivalent)'
                         },
                         {
                         name:'Cement',
-                        usage:'Zuari/ Dalmia/ equivalent (43 or 53 Grade)'
+                        usage:'Birla/ Ultratech/ equivalent (43 or 53 Grade)'
                         },
                                                 {
                         name:'RCC Design Mix	',
@@ -735,7 +735,7 @@ const Home = () => {
                         },
                         {
                         name:'Ceiling Height	',
-                        usage:'10’0″ height (Floor to floor height)'
+                        usage:'10’6″ height (Floor to floor height)'
                         },
                     ]
                 },
@@ -744,40 +744,40 @@ const Home = () => {
                     description:[
                         {
                         name:'Countertop',
-                        usage:'Granite (Upto ₹120/sqft)'
+                        usage:'Granite/ Quartz (Upto ₹400/sqft)'
                         },
                         {
                         name:'Ceramic wall tiles (2 ft. above Kitchen Slab)	',
-                        usage:'Upto ₹40/sqft'
+                        usage:'Upto ₹80/sqft'
                         },
                         {
                         name:'Accessories & Any other Faucet	',
-                        usage:'ISI Marked'
+                        usage:'Jaguar, Parryware, Hindware or equivalent'
                         },
                         {
                         name:'Kitchen Sink	',
-                        usage:'Stainless steel single sink (Upto ₹3000)'
+                        usage:'Stainless steel/ Granite finish sink (Upto ₹8000) (Futura/ Carysil/ equivalent)'
                         },
                         {
                         name:'Main Sink Faucet	',
-                        usage:'Upto ₹1500'
+                        usage:'Upto ₹3500'
                         }
                     ]
                 },
                 {
-                    category: 'Structure',
+                    category: 'Bathroom',
                     description:[
                         {
-                        name:'Bathroom',
-                        usage:'Ceramic wall tiles	'
+                        name:'Ceramic wall tiles',
+                        usage:'Upto ₹70/sqft (full height)'
                         },
                         {
                         name:'Sanitary ware & CP fittings (inclusive of Commode, Mixer, Health Faucet, Soap Dish, Towel Rail etc.)	',
-                        usage:'Upto ₹16,500 per Bathroom'
+                        usage:'Upto ₹35,000 per Bathroom'
                         },
                                                 {
                         name:'BlocBathroom Doors',
-                        usage:'Waterproof flush doors Upto ₹7000 till 500 sqft of the package BuA'
+                        usage:'Waterproof flush doors Upto ₹11,000 till 500 sqft of the package BuA'
                         },
                         {
                         name:'Glass partition in Bathroom	',
@@ -790,11 +790,11 @@ const Home = () => {
                     description:[
                         {
                         name:'CPVC Pipes',
-                        usage:'Astral/ Prince/ equivalent'
+                        usage:'Ashirwad/ Supreme/ equivalent'
                         },
                         {
                         name:'Solar Water Heater/Geyser Provision		',
-                        usage:'included'
+                        usage:'Included'
                         }
                     ]
                 },
@@ -803,23 +803,23 @@ const Home = () => {
                     description:[
                         {
                         name:'Main door	',
-                        usage:'Teak door with teak frame of 5″x3″ – ₹20,000 Including Fixtures'
+                        usage:'Teak door with teak frame of 5"x3" - ₹50,000 Including Fixtures'
                         },
                         {
                         name:'Internal doors	',
-                        usage:'Sal wood frame of 2.5″x4″ & Flush shutters with laminates (30mm) upto ₹8000 including fixtures till 500 sqft of the package BuA'
+                        usage:'Sal wood frame of 2.5″x4″ & Flush shutters with laminates (30mm) upto ₹13,000 including fixtures till 500 sqft of the package BuA'
                         },
                         {
                         name:'Pooja room door	',
-                        usage:'Not included'
+                        usage:'Teak door with teak frame of 5"x2.5" - ₹35,000 Including Fixtures'
                         },
                         {
                         name:'Windows',
-                        usage:'Aluminium window with glass shutters and Mesh shutters (3 Tracks with 1 mesh) - ₹250/Sqft'
+                        usage:'UPVC Windows with Glass and Mesh Shutters (3 Tracks with 1 Mesh) - ₹650/Sqft'
                         },
                         {
                         name:'Window Grill	',
-                        usage:'MS Grill with Enamel paint (₹115/sqft)'
+                        usage:'MS Grill with Enamel Paint (₹150/sqft)'
                         },
                         {
                         name:'Windows Opening Percentage	',
@@ -832,11 +832,11 @@ const Home = () => {
                     description:[
                         {
                         name:'Interior Painting	',
-                        usage:'JK Putty + Tractor Emulsion'
+                        usage:'Birla Putty + Aapcollite Premium Emulsion'
                         },
                         {
                         name:'Exterior Painting	',
-                        usage:'Asian Primer + Ace Exterior Emulsion Paint'
+                        usage:'Asian Primer+Apex Exterior Emulsion Paint'
                         }
                     ]
                 },
@@ -845,31 +845,31 @@ const Home = () => {
                     description:[
                         {
                         name:'Living and Dining flooring	',
-                        usage:'Vitrified Tiles (Upto ₹60/sqft)'
+                        usage:'Premium finished Vitrified Tiles or Granite (Upto ₹120/sqft)'
                         },
                         {
                         name:'Rooms and Kitchen Flooring	',
-                        usage:'Tiles (Upto ₹60/sqft)'
+                        usage:'Premium finished Vitrified Tiles or Granite (Upto ₹120/sqft)'
                         },
                                                 {
                         name:'Balcony and Open area flooring	',
-                        usage:'Anti-skid tiles (Upto ₹45/sqft)'
+                        usage:'Anti skid tiles (Upto ₹80/sqft)'
                         },
                         {
                         name:'Staircase Flooring	',
-                        usage:'Sadarahaali Granite (Upto ₹80/sqft)'
+                        usage:'Polished Granite (Upto ₹110/sqft)'
                         },
                                                 {
                         name:'Bathroom Tiles	',
-                        usage:'Anti-skid tiles (Upto ₹45/sqft)'
+                        usage:'Anti-skid tiles (Upto ₹80/sqft)'
                         },
                                                 {
                         name:'Parking Tiles	',
-                        usage:'Parking tiles (Upto ₹40/sqft)'
+                        usage:'Parking tiles (Upto ₹70/sqft)'
                         },
                         {
                         name:'Pooja Room Wall Tiles	',
-                        usage:'Not included'
+                        usage:'Upto ₹70/sqft (7"0" Height)'
                         }
                     ]
                 },
@@ -878,25 +878,25 @@ const Home = () => {
                     description:[
                         {
                         name:'Wires',
-                        usage:'Fireproof (Anchor or equivalent)'
+                        usage:'Fireproof (Havells or equivalent)'
                         },
                         {
                         name:'Switches and Sockets	',
-                        usage:'GM (basic) or equivalent'
+                        usage:'GM Modular, Legrand or equivalent'
                         }
                         ,
                         {
                         name:'CCTV, UPS & EV charging point wiring provision	',
-                        usage:'Not included'
+                        usage:'Included'
                         }
                     ]
                 },
                 {
-                    category: 'Elevation Cose',
+                    category: 'Elevation constructionse',
                     description:[
                         {
-                        name:'Elevation cost included in the package	',
-                        usage:'0.25% of the total project value'
+                        name:'Elevation constructionst included in the package	',
+                        usage:'0.75% of the total project value'
                         }
                     ]
                 },
@@ -905,27 +905,27 @@ const Home = () => {
                     description:[
                         {
                         name:'Over-head tank	',
-                        usage:'Sintex triple layered (1000 Litre)'
+                        usage:'Sintex triple layered (2000 Litre)'
                         },
                         {
                         name:'Underground Sump	',
-                        usage:'6000 Litre built with 6″ solid blocks (Customisable)'
+                        usage:'9000 Litre built with 6″ solid blocks (Customisable)'
                         },
                         {
                         name:'Internal Lofts',
-                        usage:'Not included'
+                        usage:'Lofts of ₹350/sqft (50 Sqft only)'
                         },
                         {
                         name:'External staircase railings',
-                        usage:'MS Railings Upto ₹150/sqft'
+                        usage:'SS Railings without glass Upto ₹350/sqft'
                         },
                         {
                         name:'Internal staircase railings',
-                        usage:'MS Railings Upto ₹150/sqft'
+                        usage:'SS Railings with glass Upto ₹400/sqft'
                         },
                         {
                         name:'Balcony railings	',
-                        usage:'MS Railings Upto ₹150/sqft'
+                        usage:'SS Railings with glass Upto ₹400/sqft'
                         },
                         {
                         name:'Home Automation - Anexa Enabled	',
@@ -937,11 +937,11 @@ const Home = () => {
                         },
                         {
                         name:'Anti-Termite Treatment	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'Rain water harvesting pit (Ground water recharge facility)	',
-                        usage:'included'
+                        usage:'Included'
                         }
 
                     ]
@@ -950,7 +950,7 @@ const Home = () => {
 
         },
         {
-            title: 'ultra-premium',
+            title: 'Luxury Package',
             price:'Rs. 2399/Sq.Ft.',
             packagetitle:[
                 {
@@ -958,27 +958,27 @@ const Home = () => {
                     description:[
                         {
                         name:'2D Floor Plan	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'3D Elevation	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'Architectural Working Drawings (GFC Drawings)	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'Structural Drawings as per IS Codes	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'MEP Drawings	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'VR & AR Tour	',
-                        usage:'not included'
+                        usage:'Included'
                         },
                     ]
                 },
@@ -987,7 +987,7 @@ const Home = () => {
                     description:[
                         {
                         name:'Steel',
-                        usage:'A1 gold/ Kamadhenu/ equivalent'
+                        usage:'TATA Steel/ equivalent'
                         },
                         {
                         name:'Aggregates',
@@ -995,11 +995,11 @@ const Home = () => {
                         },
                                                 {
                         name:'Blocks',
-                        usage:'Solid concrete blocks – 6″ & 4″'
+                        usage:'Hydraulic Pressed Blocks – 6″ & 4″ (Apco/ AVS/ equivalent)'
                         },
                         {
                         name:'Cement',
-                        usage:'Zuari/ Dalmia/ equivalent (43 or 53 Grade)'
+                        usage:'Birla/ Ultratech/ equivalent (43 or 53 Grade)'
                         },
                                                 {
                         name:'RCC Design Mix	',
@@ -1007,7 +1007,7 @@ const Home = () => {
                         },
                         {
                         name:'Ceiling Height	',
-                        usage:'10’0″ height (Floor to floor height)'
+                        usage:'11"0" height (Floor to floor height)'
                         },
                     ]
                 },
@@ -1016,44 +1016,44 @@ const Home = () => {
                     description:[
                         {
                         name:'Countertop',
-                        usage:'Granite (Upto ₹120/sqft)'
+                        usage:'Quartz (Upto ₹500/sqft)'
                         },
                         {
                         name:'Ceramic wall tiles (2 ft. above Kitchen Slab)	',
-                        usage:'Upto ₹40/sqft'
+                        usage:'Upto ₹100/sqft'
                         },
                         {
                         name:'Accessories & Any other Faucet	',
-                        usage:'ISI Marked'
+                        usage:'Kohler or equivalent'
                         },
                         {
                         name:'Kitchen Sink	',
-                        usage:'Stainless steel single sink (Upto ₹3000)'
+                        usage:'Stainless steel/ Granite finish sink (Upto ₹9000) (Futura/ Carysil/ equivalent)'
                         },
                         {
                         name:'Main Sink Faucet	',
-                        usage:'Upto ₹1500'
+                        usage:'Upto ₹4000'
                         }
                     ]
                 },
                 {
-                    category: 'Structure',
+                    category: 'Bathroom',
                     description:[
                         {
-                        name:'Bathroom',
-                        usage:'Ceramic wall tiles	'
+                        name:'Ceramic wall tiles	',
+                        usage:'Upto ₹80/sqft (full height)'
                         },
                         {
                         name:'Sanitary ware & CP fittings (inclusive of Commode, Mixer, Health Faucet, Soap Dish, Towel Rail etc.)	',
-                        usage:'Upto ₹16,500 per Bathroom'
+                        usage:'Upto ₹40,000 per Bathroom'
                         },
                                                 {
                         name:'BlocBathroom Doors',
-                        usage:'Waterproof flush doors Upto ₹7000 till 500 sqft of the package BuA'
+                        usage:'Waterproof flush doors Upto ₹12,000 till 500 sqft of the package BuA'
                         },
                         {
                         name:'Glass partition in Bathroom	',
-                        usage:'Not included'
+                        usage:'Glass partition in Masterbedroom bathroom (1 No"s) - Upto ₹15,000'
                         },
                     ]
                 },
@@ -1062,11 +1062,11 @@ const Home = () => {
                     description:[
                         {
                         name:'CPVC Pipes',
-                        usage:'Astral/ Prince/ equivalent'
+                        usage:'Ashirwad/ Supreme/ equivalent'
                         },
                         {
                         name:'Solar Water Heater/Geyser Provision		',
-                        usage:'included'
+                        usage:'Included'
                         }
                     ]
                 },
@@ -1075,27 +1075,27 @@ const Home = () => {
                     description:[
                         {
                         name:'Main door	',
-                        usage:'Teak door with teak frame of 5″x3″ – ₹20,000 Including Fixtures'
+                        usage:'Teak door with teak frame of 5"x3" - ₹55,000 Including Fixtures'
                         },
                         {
                         name:'Internal doors	',
-                        usage:'Sal wood frame of 2.5″x4″ & Flush shutters with laminates (30mm) upto ₹8000 including fixtures till 500 sqft of the package BuA'
+                        usage:'Sal wood frame of 2.5"x4" & Flush shutters with laminates (30mm) upto ₹14,000 including fixtures till 500 sqft of the package BuA'
                         },
                         {
                         name:'Pooja room door	',
-                        usage:'Not included'
+                        usage:'Teak door with teak frame of 5"x2.5" - ₹40,000 Including Fixtures'
                         },
                         {
                         name:'Windows',
-                        usage:'Aluminium window with glass shutters and Mesh shutters (3 Tracks with 1 mesh) - ₹250/Sqft'
+                        usage:'UPVC Windows with Glass and Mesh Shutters (3 Tracks with 1 Mesh) - ₹750/Sqft'
                         },
                         {
                         name:'Window Grill	',
-                        usage:'MS Grill with Enamel paint (₹115/sqft)'
+                        usage:'MS Grill with Enamel Paint (₹150/sqft)'
                         },
                         {
                         name:'Windows Opening Percentage	',
-                        usage:'10% of the Package BUA'
+                        usage:'12% of the Package BUA'
                         },
                     ]
                 },
@@ -1104,11 +1104,11 @@ const Home = () => {
                     description:[
                         {
                         name:'Interior Painting	',
-                        usage:'JK Putty + Tractor Emulsion'
+                        usage:'Birla Putty + Aapcollite Premium Emulsion'
                         },
                         {
                         name:'Exterior Painting	',
-                        usage:'Asian Primer + Ace Exterior Emulsion Paint'
+                        usage:'Asian Primer + Apex ultima Emulsion Paint'
                         }
                     ]
                 },
@@ -1117,31 +1117,31 @@ const Home = () => {
                     description:[
                         {
                         name:'Living and Dining flooring	',
-                        usage:'Vitrified Tiles (Upto ₹60/sqft)'
+                        usage:'Premium finished Vitrified Tiles or Granite (Upto ₹140/sqft)'
                         },
                         {
                         name:'Rooms and Kitchen Flooring	',
-                        usage:'Tiles (Upto ₹60/sqft)'
+                        usage:'Premium finished Vitrified Tiles or Granite (Upto ₹130/sqft)'
                         },
                                                 {
                         name:'Balcony and Open area flooring	',
-                        usage:'Anti-skid tiles (Upto ₹45/sqft)'
+                        usage:'Anti skid tiles (Upto ₹80/sqft)'
                         },
                         {
                         name:'Staircase Flooring	',
-                        usage:'Sadarahaali Granite (Upto ₹80/sqft)'
+                        usage:'Polished Granite (Upto ₹120/sqft)'
                         },
                                                 {
                         name:'Bathroom Tiles	',
-                        usage:'Anti-skid tiles (Upto ₹45/sqft)'
+                        usage:'Anti-skid tiles (Upto ₹90/sqft)'
                         },
                                                 {
                         name:'Parking Tiles	',
-                        usage:'Parking tiles (Upto ₹40/sqft)'
+                        usage:'Parking tiles (Upto ₹80/sqft)'
                         },
                         {
                         name:'Pooja Room Wall Tiles	',
-                        usage:'Not included'
+                        usage:'Upto ₹80/sqft (7"0" Height)'
                         }
                     ]
                 },
@@ -1150,25 +1150,25 @@ const Home = () => {
                     description:[
                         {
                         name:'Wires',
-                        usage:'Fireproof (Anchor or equivalent)'
+                        usage:'Fireproof (Havells or equivalent)'
                         },
                         {
                         name:'Switches and Sockets	',
-                        usage:'GM (basic) or equivalent'
+                        usage:'GM Modular, Legrand or equivalent'
                         }
                         ,
                         {
                         name:'CCTV, UPS & EV charging point wiring provision	',
-                        usage:'Not included'
+                        usage:'Included'
                         }
                     ]
                 },
                 {
-                    category: 'Elevation Cose',
+                    category: 'Elevation constructionse',
                     description:[
                         {
-                        name:'Elevation cost included in the package	',
-                        usage:'0.25% of the total project value'
+                        name:'Elevation constructionst included in the package	',
+                        usage:'1% of the total project value'
                         }
                     ]
                 },
@@ -1177,43 +1177,43 @@ const Home = () => {
                     description:[
                         {
                         name:'Over-head tank	',
-                        usage:'Sintex triple layered (1000 Litre)'
+                        usage:'Sintex triple layered (2000 Litre)'
                         },
                         {
                         name:'Underground Sump	',
-                        usage:'6000 Litre built with 6″ solid blocks (Customisable)'
+                        usage:'10000 Litre built with 6″ solid blocks (Customisable)'
                         },
                         {
                         name:'Internal Lofts',
-                        usage:'Not included'
+                        usage:'Lofts of ₹350/sqft (50 Sqft only)'
                         },
                         {
                         name:'External staircase railings',
-                        usage:'MS Railings Upto ₹150/sqft'
+                        usage:'SS Railings without glass Upto ₹400/sqft'
                         },
                         {
                         name:'Internal staircase railings',
-                        usage:'MS Railings Upto ₹150/sqft'
+                        usage:'SS Railings with glass Upto ₹450/sqft'
                         },
                         {
                         name:'Balcony railings	',
-                        usage:'MS Railings Upto ₹150/sqft'
+                        usage:'SS Railings with glass Upto ₹450/sqft'
                         },
                         {
                         name:'Home Automation - Anexa Enabled	',
-                        usage:'Not included'
+                        usage:'10 switches/1000 sqft + Video door bell (Wipro, GM or equivalent) - Upto ₹15,000/-'
                         },
                         {
                         name:'Include digi lock, wireless CCTV at 2 places	',
-                        usage:'Not included'
+                        usage:'Upto ₹20,000/- (for the entire house)'
                         },
                         {
                         name:'Anti-Termite Treatment	',
-                        usage:'included'
+                        usage:'Included'
                         },
                         {
                         name:'Rain water harvesting pit (Ground water recharge facility)	',
-                        usage:'included'
+                        usage:'Included'
                         }
 
                     ]
@@ -1259,20 +1259,20 @@ const Home = () => {
             <div id = 'aboutUs' className='home1'>
                 <div className='homee1-content' ref={contentRef} >
                     <h1 >Building Dreams. Designing Spaces.</h1>
-                    <p >At Dynamic Infra Projects,  is a one-stop solution for Construction and Interiors across Karnataka. With over 10 years of expertise, we specialize in creating exceptional residential and commercial spaces that are elegant, functional, and built to last.</p>
+                    <p >At Dynamic Infra Projects,  is a one-stop solution for constructions and Interiors across Karnataka. With over 10 years of expertise, we specialize in creating exceptional residential and commercial spaces that are elegant, functional, and built to last.</p>
                     <div className='services-section' >
                         <div >
-                            <h3>Residential Construction & Interiors</h3>
+                            <h3>Residential constructions & Interiors</h3>
                             <p>From concept to completion, we design and build dream homes with precision and creativity. Whether it’s a new build or a renovation, our team delivers:
-                            Complete home construction with quality materials and engineering excellence
+                            Complete home constructions with quality materials and engineering excellence
                             Custom interiors including modular kitchens, wardrobes, TV units, false ceilings, and stylish living spaces
                             End-to-end project management ensuring on-time and budget-friendly delivery
                             </p>
                         </div>
                         <div>
-                            <h3>Commercial Construction & Interiors</h3>
+                            <h3>Commercial constructions & Interiors</h3>
                             <p>We help businesses create spaces that inspire productivity and reflect their brand. Our commercial solutions include:
-                               Office, retail, and workspace construction
+                               Office, retail, and workspace constructions
                                Modern interiors for corporate offices, showrooms, and hospitality spaces
                                Smart designs that balance aesthetics, efficiency, and functionality
                             </p>
@@ -1291,7 +1291,7 @@ const Home = () => {
                 
             </div>
             <div className='home2'>
-                <h1>Why is Dynamic Infra the Best for Interiors and Construction?</h1>
+                <h1>Why is Dynamic Infra the Best for Interiors and constructions?</h1>
                 <div className='img-section'>
                     <img className='trust-logos' src={img1} alt='img1'/>
                     <img className='trust-logos' src={img2} alt='img1'/>
@@ -1302,7 +1302,7 @@ const Home = () => {
                     <img className='trust-logos' src={img6} alt='img1'/>
                 </div>
                 <div>
-                    <button className='home2-btn'>Start your construction</button>
+                    <button className='home2-btn'>Start your constructions</button>
                 </div>
             </div>
             <div id = 'services' className='home3'>
@@ -1314,8 +1314,8 @@ const Home = () => {
                 </div>
                 <div className='services-imgs'>
                     <div>
-                        <img src = {construction} alt='construction'/>
-                        <p>Construction</p>
+                        <img src = {construction} alt='constructions'/>
+                        <p>constructions</p>
                     </div>
                     <div>
                         <img src = {interior2} alt='interior1'/>
@@ -1373,7 +1373,7 @@ const Home = () => {
             <div className='home5'>
                 <div className='how-it-works'>
                     <h1>How It Works</h1>
-                    <p>Our house construction steps are simple and easy to understand</p>
+                    <p>Our house constructions steps are simple and easy to understand</p>
                 <div className="steps-line">
                 {detailsteps.map((step, index) => (
                 <div
@@ -1414,7 +1414,7 @@ const Home = () => {
                 
                 <div className='home6'>
                 <div className="pros-cons">
-                    <h1>Why is Dynamic Infra the Best for Interiors and Construction?</h1>
+                    <h1>Why is Dynamic Infra the Best for Interiors and constructions?</h1>
                     <div className="table">
                         <div className='pros'>
                             <div className='head-pro'>
@@ -1424,8 +1424,8 @@ const Home = () => {
                                 <ul>
                                     <li>ESCROW infra Facility for 100% Money Safety</li>
                                     <li>Top Quality Assurance with QASCON</li>
-                                    <li>Monitor The Progress From Home using App</li>
-                                    <li>ZERO Cost Overruns</li>
+                                    <li>Monitor The Progress From Home using Whatsapp Group</li>
+                                    <li>ZERO constructionst Overruns</li>
                                     <li>Guaranteed On Time Delivery</li>
                                 </ul>
                             </div>
@@ -1438,8 +1438,8 @@ const Home = () => {
                                 <ul>
                                     <li>No Safety of Money & High Risk</li>
                                     <li>Improper quality checks</li>
-                                    <li>No App. Have to go to construction site</li>
-                                    <li>Costs keep increasing</li>
+                                    <li>No App. Have to go to constructions site</li>
+                                    <li>constructionsts keep increasing</li>
                                     <li>No guarantee on timely delivery</li>
                                 </ul>
                             </div>

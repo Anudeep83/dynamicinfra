@@ -1,6 +1,11 @@
 import  {useState ,useEffect, useRef } from 'react';
 import logo from '../../Assets/logo.webp';
-import hero from '../../Assets/heroimg.webp';
+import heroimg1 from '../../Assets/heroimg.webp';
+import heroimg2 from '../../Assets/heroimg2.webp';
+import heroimg3 from '../../Assets/heroimg3.webp';
+import heroimg4 from '../../Assets/heroimg4.webp';
+import cosntructions from '../../Assets/constructions.webp';
+import Interiors from '../../Assets/Interiors.webp';
 import './Header.css';
 
 const Header = () => {
@@ -63,7 +68,7 @@ const Header = () => {
 
       if (headerimgRef.current) {
         const translateY = scrollY * 2; // adjust speed
-        const maxTranslate = windowHeight + 200;
+        const maxTranslate = windowHeight + 20;
         headerimgRef.current.style.transform = `translateY(${Math.min(translateY, maxTranslate)}px)`;
 
         const opacity = Math.max(1 - scrollY / 500, 0); // fades between 0–500px scroll
@@ -96,15 +101,19 @@ const Header = () => {
 
   return (
     <div className='hero-section'>
-      <img src={hero} className='hero-image animate' ref={headerimgRef} alt='hero-img'/>
+      <img src={heroimg4} className='hero-image animate' ref={headerimgRef} alt='hero-img'/>
+      {/*<div className='hero-image-secion'>
+        <img src={cosntructions} className='hero-image animate' ref={headerimgRef} alt='hero-img'/>
+        <img src={Interiors} className='hero-image bottom animate' ref={headerimgRef} alt='hero-img'/>
+      </div>*/}
       <div className='header-section animate'>
         <nav className='nav-bar'>
           <img src={logo} alt = 'logo'/>
-          <a href="#home"><li>Home</li></a>
-          <a href="#aboutUs"><li>AboutUs</li></a>
-          <a href="#services"><li>Services</li></a>
-          <a href="#gallery"><li>Gallery</li></a>
-          <a href="#contact"><li>Contact</li></a>
+          <a className='nav-line' href="#home"><li>Home</li></a>
+          <a className='nav-line' href="#aboutUs"><li>AboutUs</li></a>
+          <a className='nav-line' href="#services"><li>Services</li></a>
+          <a className='nav-line' href="#gallery"><li>Gallery</li></a>
+          <a className='nav-line' href="#contact"><li>Contact</li></a>
         </nav>
         <nav className='nav-bar-mobile'>
            <div className={`hamburger ${isNavOpen ? 'active' : ''}`} onClick={toggleNav}>

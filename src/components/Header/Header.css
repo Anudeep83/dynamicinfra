@@ -12,17 +12,26 @@ body{
     width: 100%;
     height: 110vh;
     background-size: cover;
+
+}
+
+.hero-image-secion{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .hero-image{
     position: absolute;      
     top: 0;
     left: 0;
-    width: 60%;             
-    height: 90%;            
+    width: 50%;             
+    height: 100%;            
     z-index: -1;    
     transition: transform 0.1s linear ;
 }
+
+
 
 .header-section{
     position: relative;
@@ -44,14 +53,14 @@ body{
     font-weight: 600;
     font-style: normal;
     font-size: 4.5rem;
-    color: #92101b;
+    color: #ffffff;
     padding:10px;
-    margin-right: 180px;
+    margin-right: 140px;
     text-shadow: 2px 5px 14px rgba(0, 0, 0, 0.3);
 }
 
 .header-name span{
-    color: #000;
+    color: #92101b;
 }
 
 .header-name{
@@ -88,7 +97,7 @@ a,li {
   
 }
 
-li::after {
+.nav-line::after {
   content: "";
   position: absolute;
   left: 0;
@@ -99,7 +108,7 @@ li::after {
   transition: width 0.3s ease;
 }
 
-li:hover::after {
+.nav-line:hover::after {
   width: 100%;
 }
 
@@ -111,8 +120,8 @@ li:hover::after {
     left: 20px;    
     font-family: "Noto Serif", serif;
     font-weight: 500;
-    font-size: 2rem;
-    color: #92101b;
+    font-size: 1.5rem;
+    color: #ffffff;
     text-shadow: 2px 5px 14px rgba(0, 0, 0, 0.3);
     transition: transform 0.1s linear;
 }

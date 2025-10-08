@@ -46,9 +46,9 @@ const Form = () => {
     
     return(
         <div>
-            <div className="form-section" ref={headerRef}>
+            <div className="form-section" >
                 <h1>Book FREE Appointment</h1>
-                <p>For Best Quality Construction At Affordable Rates</p>
+                <p>For Best Quality Constructions At Affordable Rates</p>
                 <div>
                     <form className='form-details' onSubmit={handleSubmit}>
                         <div className='form-inputs'>
@@ -64,7 +64,7 @@ const Form = () => {
                             <input type='text' id = 'plot' placeholder='Location of your plot' onChange={handleChange} value={formData.plot}/>
                         </div>
                         <div className='btn-content'>
-                            <div>
+                            <div className='btn-container'>
                                 <button type='submit'>Start your construction</button>
                             </div>
                             <p><a href= "home">*</a>By submitting this form, 
