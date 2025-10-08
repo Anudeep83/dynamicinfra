@@ -220,8 +220,8 @@ a,li {
 @media screen and (max-width: 468px) {
   
     .header-name h1 {
-        margin-top: 150px;
-        font-size: 2rem;
+        margin-top: 70px;
+        font-size: 1.4rem;
     }
 
     .header-name{
@@ -356,7 +356,7 @@ a,li {
 
     .dreams {
         font-size: 0.6rem;
-        top: 220px;
+        top: 200px;
         left: 8px;
     }
 

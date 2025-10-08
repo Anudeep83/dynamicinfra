@@ -101,7 +101,7 @@ const Header = () => {
 
   return (
     <div className='hero-section'>
-      <img src={heroimg4} className='hero-image animate' ref={headerimgRef} alt='hero-img'/>
+      <img src={heroimg3} className='hero-image animate' ref={headerimgRef} alt='hero-img'/>
       {/*<div className='hero-image-secion'>
         <img src={cosntructions} className='hero-image animate' ref={headerimgRef} alt='hero-img'/>
         <img src={Interiors} className='hero-image bottom animate' ref={headerimgRef} alt='hero-img'/>
