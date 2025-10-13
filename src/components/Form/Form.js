@@ -1,4 +1,8 @@
 import  { useState,useEffect, useRef } from 'react';
+//import PrivacyPolicy from '../Packages/Packages.js';
+import { Link } from 'react-router-dom';
+
+
 import './Form.css'
 
 const Form = () => {
@@ -68,7 +72,7 @@ const Form = () => {
                                 <button type='submit'>Start your construction</button>
                             </div>
                             <p><a href= "home">*</a>By submitting this form, 
-                               I confirm that I have read and agreed to accept Brick&Bolt's <a href='#home'>privacy policy</a></p>
+                               I confirm that I have read and agreed to accept Brick&Bolt's  <span><Link to="/privacy">privacy policy</Link></span></p>
                         </div>
                     </form>
             </div>

@@ -35,7 +35,7 @@ body{
 
 .header-section{
     position: relative;
-    top: 0;
+    top: -20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -83,7 +83,7 @@ body{
 .nav-bar{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 35px;
     align-items: flex-end;
     
 }
@@ -91,11 +91,10 @@ body{
 a,li {
   list-style: none;
   position: relative;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   cursor: pointer;
   text-decoration: none;
   color: #000;
-  
 }
 
 .nav-line::after {
@@ -112,8 +111,6 @@ a,li {
 .nav-line:hover::after {
   width: 100%;
 }
-
-
 
 .dreams {
     position: absolute;
@@ -219,15 +216,10 @@ a,li {
 }
 
 @media screen and (max-width: 468px) {
-  
-    .hero-section {
-      height: 100vh;
-      width: 100%;
-    }
-
     .header-name h1 {
-        margin-top: 70px;
-        font-size: 1.4rem;
+        margin-top: 100px;
+        font-size: 1.2rem;
+        margin-right: 0px;
     }
 
     .header-name{
@@ -249,8 +241,8 @@ a,li {
         align-items: flex-end;
         padding: 14px 20px;
         position: relative;
-        top: -20px;
-        left: 35px;
+        top: -15px;
+        left: 30px;
         
     }
 
@@ -289,7 +281,7 @@ a,li {
         display: none;
         position: absolute;
         top: 100%;
-        left: -360px;
+        left: -350px;
         height: auto;
         width: 100vw;
         flex-wrap: wrap;
@@ -339,7 +331,7 @@ a,li {
     }
 
     .hero-image{
-        height: 25%;
+        height: auto;
         width: 60%;
         top:10px;
     }

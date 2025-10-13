@@ -1291,7 +1291,7 @@ const Home = () => {
                 
             </div>
             <div className='home2'>
-                <h1>Why is Dynamic Infra the Best for Interiors and constructions?</h1>
+                <h1 className='home2-heading'>Why is Dynamic Infra the Best for Interiors and constructions?</h1>
                 <div className='img-section'>
                     <img className='trust-logos' src={img1} alt='img1'/>
                     <img className='trust-logos' src={img2} alt='img1'/>
@@ -1302,7 +1302,11 @@ const Home = () => {
                     <img className='trust-logos' src={img6} alt='img1'/>
                 </div>
                 <div>
-                    <button className='home2-btn'>Start your constructions</button>
+                    <button
+                        onClick={() => {
+                        window.location.href = "tel:+919620720430";
+                        }}
+                        className='home2-btn'>Start your constructions</button>
                 </div>
             </div>
             <div id = 'services' className='home3'>
@@ -1488,7 +1492,11 @@ const Home = () => {
                         </div>
                         ))}
                         <hr/>
-                        <button className='enquire-btn'>Enquire now</button>
+                        <button
+                            onClick={() => {
+                            window.location.href = "tel:+919620720430";
+                            }}
+                            className='enquire-btn'>Enquire now</button>
                     </div>
                     ))}
                 </div>

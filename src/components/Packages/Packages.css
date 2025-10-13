@@ -1,0 +1,132 @@
+/* Packages.css */
+
+body{
+    overflow-x: hidden;
+}
+
+.privacy-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.privacy-head h1{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-size: 2rem;
+    font-style: normal;
+    color: #92101b;
+}
+
+.privacy-logo{
+    height: 100px;
+    width: 140px;
+}
+
+.privacy-root {
+  display: flex;
+  justify-content: center;
+  padding: 48px 16px;
+  background: #f8f8f8;
+  gap:20px;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+.privacy-card {
+  max-width: 100%;
+  width: 100%;
+  background: #ffffff; /* white background */
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(18, 38, 63, 0.08);
+  padding: 32px;
+  color: #333333;
+  border-top: 6px solid #92101b; /* red accent line */
+}
+
+.privacy-header h1 {
+  margin: 0 0 8px 0;
+  font-size: 32px;
+  color: #92101b; /* deep red header */
+}
+
+.effective {
+  margin: 0 0 16px 0;
+  color: #555555;
+  font-size: 14px;
+}
+
+.lead {
+  margin-bottom: 20px;
+  color: #444444;
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+section h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #92101b; /* section headings in red */
+}
+
+section p,
+section ul {
+  color: #333333;
+  line-height: 1.7;
+}
+
+section ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.privacy-footer {
+  display: flex;
+  gap: 32px;
+  border-top: 1px solid #e6eef6;
+  padding-top: 24px;
+  margin-top: 16px;
+}
+
+.privacy-footer h3,
+.privacy-footer h4 {
+  margin: 0 0 8px 0;
+  color: #92101b;
+}
+
+a {
+  color: #92101b;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.grievance p {
+  margin: 4px 0;
+}
+
+@media (max-width: 640px) {
+  .privacy-card {
+    padding: 20px;
+  }
+  .privacy-footer {
+    flex-direction: column;
+  }
+  .privacy-root {
+    flex-direction: column;
+    align-items: center;
+  }
+  .privacy-logo{
+    height: 50px;
+    width: 70px;
+  }
+  .privacy-head h1{
+    font-size: 1rem;
+ }
+}

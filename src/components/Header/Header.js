@@ -1,11 +1,11 @@
 import  {useState ,useEffect, useRef } from 'react';
 import logo from '../../Assets/logo.webp';
-import heroimg1 from '../../Assets/heroimg.webp';
-import heroimg2 from '../../Assets/heroimg2.webp';
-import heroimg3 from '../../Assets/heroimg3.webp';
+//import heroimg1 from '../../Assets/heroimg.webp';
+//import heroimg2 from '../../Assets/heroimg2.webp';
+//import heroimg3 from '../../Assets/heroimg3.webp';
 import heroimg4 from '../../Assets/heroimg4.webp';
-import cosntructions from '../../Assets/constructions.webp';
-import Interiors from '../../Assets/Interiors.webp';
+//import cosntructions from '../../Assets/constructions.webp';
+//import Interiors from '../../Assets/Interiors.webp';
 import './Header.css';
 
 const Header = () => {
