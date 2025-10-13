@@ -52,10 +52,11 @@ body{
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    font-size: 4.5rem;
+    font-size: 4rem;
     color: #ffffff;
-    padding:10px;
-    margin-right: 140px;
+    position: relative;
+    top: -35px;
+    margin-right: 200px;
     text-shadow: 2px 5px 14px rgba(0, 0, 0, 0.3);
 }
 
@@ -219,6 +220,11 @@ a,li {
 
 @media screen and (max-width: 468px) {
   
+    .hero-section {
+      height: 100vh;
+      width: 100%;
+    }
+
     .header-name h1 {
         margin-top: 70px;
         font-size: 1.4rem;
